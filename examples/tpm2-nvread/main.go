@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/google/go-tpm/legacy/tpm2"
-	"github.com/google/go-tpm/tpmutil"
+	"github.com/jmarcelocruz-ubiwhere/go-tpm/legacy/tpm2"
+	"github.com/jmarcelocruz-ubiwhere/go-tpm/tpmutil"
 )
 
 var (

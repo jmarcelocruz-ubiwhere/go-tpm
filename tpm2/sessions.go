@@ -11,7 +11,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/google/go-tpm/tpm2/transport"
+	"github.com/jmarcelocruz-ubiwhere/go-tpm/tpm2/transport"
 )
 
 // Session represents a session in the TPM.

@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"testing"
 
-	. "github.com/google/go-tpm/tpm2"
-	"github.com/google/go-tpm/tpm2/transport"
-	"github.com/google/go-tpm/tpm2/transport/simulator"
+	. "github.com/jmarcelocruz-ubiwhere/go-tpm/tpm2"
+	"github.com/jmarcelocruz-ubiwhere/go-tpm/tpm2/transport"
+	"github.com/jmarcelocruz-ubiwhere/go-tpm/tpm2/transport/simulator"
 )
 
 func TestHash(t *testing.T) {

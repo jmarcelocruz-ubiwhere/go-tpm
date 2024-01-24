@@ -6,8 +6,8 @@ import (
 	"crypto/rand"
 	"testing"
 
-	. "github.com/google/go-tpm/tpm2"
-	"github.com/google/go-tpm/tpm2/transport/simulator"
+	. "github.com/jmarcelocruz-ubiwhere/go-tpm/tpm2"
+	"github.com/jmarcelocruz-ubiwhere/go-tpm/tpm2/transport/simulator"
 )
 
 func TestImport(t *testing.T) {

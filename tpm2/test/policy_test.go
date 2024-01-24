@@ -5,9 +5,9 @@ import (
 	"crypto/sha1"
 	"testing"
 
-	. "github.com/google/go-tpm/tpm2"
-	"github.com/google/go-tpm/tpm2/transport"
-	"github.com/google/go-tpm/tpm2/transport/simulator"
+	. "github.com/jmarcelocruz-ubiwhere/go-tpm/tpm2"
+	"github.com/jmarcelocruz-ubiwhere/go-tpm/tpm2/transport"
+	"github.com/jmarcelocruz-ubiwhere/go-tpm/tpm2/transport/simulator"
 )
 
 // This test isn't interesting, but it checks that you can omit the handles on `StartAuthSession`.

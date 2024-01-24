@@ -8,8 +8,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	. "github.com/google/go-tpm/tpm2"
-	"github.com/google/go-tpm/tpm2/transport/simulator"
+	. "github.com/jmarcelocruz-ubiwhere/go-tpm/tpm2"
+	"github.com/jmarcelocruz-ubiwhere/go-tpm/tpm2/transport/simulator"
 )
 
 func TestECDH(t *testing.T) {
