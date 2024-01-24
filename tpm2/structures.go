@@ -1525,9 +1525,9 @@ func (u TPMUSymDetails) get(hint int64) (reflect.Value, error) {
 }
 
 // NewTPMUSymDetails instantiates a TPMUSymDetails with the given contents.
-func NewTPMUSymDetails[C SymDetailsContents](selector TPMAlgID, contents C) TPMUSymMode {
+func NewTPMUSymDetails[C SymDetailsContents](selector TPMAlgID, contents C) TPMUSymDetails {
 	boxed := box(&contents)
-	return TPMUSymMode{
+	return TPMUSymDetails{
 		selector: selector,
 		contents: &boxed,
 	}
